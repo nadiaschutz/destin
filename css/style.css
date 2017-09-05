@@ -151,6 +151,10 @@ h3 {
     margin-right: 23px;
 }
 
+button {
+    outline: none;
+}
+
 btn,
 .btn-general {
     white-space: nowrap;
@@ -455,6 +459,47 @@ address {
 address p {
     color: #fff;
 }
+.container-contact {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 50px;
+}
+.contact-name,
+.contact-email {
+    position: relative;
+    min-height: 1px;
+    float: left;
+    width: 50%;
+    margin-bottom: 15px;
+}
+.contact-name {
+    padding: 0 7px 0 15px;
+}
+.contact-email {
+    padding: 0 15px 0 7px;
+}
+.message {
+    height: 200px !important;
+}
+.send-btn {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.form-control {
+    background-color: #F8F9fa;
+    border: 1px solid #e7e8ea;
+}
+
+/*input[type=submit] {
+    display: inline-block;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-decoration: none;
+    -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}*/
 
 /*footer*/
 footer {

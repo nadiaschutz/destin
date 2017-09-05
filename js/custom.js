@@ -22,6 +22,14 @@ $(function () {
             scrollTop: $(section).offset().top - 64
         }, 1250, "easeInOutExpo");
     });
+    $("button.smooth-scroll").click(function (event) {
+        event.preventDefault();
+        //return id like #about, #work and etc.
+        var section = $(this).attr("href");
+        $('html,body').animate({
+            scrollTop: $(section).offset().top - 64
+        }, 1250, "easeInOutExpo");
+    });
 });
 
 /*to close mobile menu on click*/

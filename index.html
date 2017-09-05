@@ -18,6 +18,9 @@
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <!--font awesome-->
     <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+
     <!--bootstrap css-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!--animate css-->
@@ -91,7 +94,7 @@
                                 <a class="smooth-scroll btn-p btn-general" href="#contact" role="button" title="Contact Us">Contact Us</a>
                             </li>
                             <li class="home-btn-item">
-                                <a class=" smooth-scroll  btn-white btn-general " href="#" role="button " title="Sign Up For News ">Sign Up For News</a>
+                                <a class=" smooth-scroll  btn-white btn-general" href="#" role="button " title="Sign Up For News ">Subscribe For News</a>
                             </li>
                         </ul>
 
@@ -148,7 +151,7 @@
                                         <p>We are getting prepared for the launch of Destin Bot for 1 November 2017.In the meantime, we can manually serve you. If you have any questions regarding Canadian Immigration feel free to send us an email or simply subscribe to our e-mail list so that we can exclusively alert you when our bot is ready. </p>
                                     </div>
                                     <div id="prep-btn" class="content-title wow fadeInUp " data-wow-duration="1s " data-wow-delay=".5s ">
-                                        <button class="smooth-scroll btn-white btn-general" href="#work" role="button">Contact Us</button>
+                                        <button class="smooth-scroll btn-white btn-general" href="#work" role="button">Subscribe For News</button>
                                     </div>
 
                                 </div>
@@ -565,7 +568,7 @@
 nargiz@destin.ai | Tel: +1 343 364 7255</p>
                                 </address>
                         </div>
-                        <div class="container-message ">
+                        <div class="container-contact">
 
                             <form method="POST" action="https://formspree.io/nargiz@destin.ai " class="contact-form">
                                 <div class="row">
@@ -582,11 +585,11 @@ nargiz@destin.ai | Tel: +1 343 364 7255</p>
 
                                 <div class="row">
 
-                                    <div class="col-md-6">
+                                    <div class="contact-name">
                                         <input type="text" name="name" id="name" placeholder="Your Name" required class="form-control">
                                     </div>
 
-                                    <div class="col-md-6">
+                                    <div class="contact-email">
                                         <input type="email" name="email" id="email" placeholder="Your email" required class="form-control">
                                     </div>
                                 </div>
@@ -596,8 +599,11 @@ nargiz@destin.ai | Tel: +1 343 364 7255</p>
                                     </div>
                                 </div>
                                 <div class="row">
+
                                     <div class="col-md-12">
-                                        <input type="submit" value="Send it!">
+                                        <div class="send-btn">
+                                            <input class="btn-p btn-general" type="submit" value="Send message">
+                                        </div>
                                     </div>
                                 </div>
 
