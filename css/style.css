@@ -98,12 +98,14 @@ h3 {
 #home-cover {
     background: linear-gradient(to left top, #3CECB0, #009FC5);
     height: 100%;
+    position: relative;
 }
 
 #home-content-box {
     width: 50%;
     height: 100%;
     display: table;
+    float: left;
 }
 
 #home-content-box-inner {
@@ -132,6 +134,89 @@ h3 {
     list-style: none;
     display: list-item;
     text-align: -webkit-match-parent;
+}
+
+
+/*illustrations*/
+
+#home-illustrations {
+    position: absolute;
+    width: 57%;
+    height: 100%;
+    display: table;
+    float: left;
+    transform: rotate(-19deg);
+    transform-origin: 100% 0;
+    top: 50px;
+    right: 50px;
+}
+
+.home-card-work {
+    height: 200px;
+    width: 150px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
+    padding: 10px;
+    margin: 20px;
+    float: left;
+}
+
+.cicle {
+    width: 30px;
+    height: 30px;
+    background: #E0E0E0;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+}
+
+.top-p {
+    float: left;
+}
+
+.visa {
+    font-size: 10px;
+}
+
+.line {
+    height: 10px;
+    background: #E0E0E0;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+.lines-short {
+    float: left;
+    width: 68%;
+}
+
+.line-short {
+    height: 10px;
+    background: #E0E0E0;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+.approved {
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(to left top, #F23673, #FFC066)!important;
+    border-radius: 5px;
+    float: left;
+    margin-left: 10px;
+}
+
+.approved i {
+    color: #fff;
+}
+
+#first-1-line {
+    margin-left: 100px;
+}
+
+#first-2-line {
+    margin-left: 50px;
 }
 
 
@@ -363,7 +448,7 @@ btn,
     
     transition: transform .15s ease;
     border-radius: 12px;
-    height: 254px;
+    height: 320px;
 }
 .training-item:hover {
     background-color: white;
@@ -589,6 +674,9 @@ footer {
 .vesco-nav-wrapper {
     padding: 0 85px;
 }
+.blue-nav {
+    background: linear-gradient(to left top, #3CECB0, #009FC5);
+}
 .navbar-nav {
     float: right;
 }
@@ -623,3 +711,11 @@ footer {
 .navbar-collapse {
     max-height: none !important;
 }
+
+/*privacy-policy*/
+#privacy,
+#terms {
+    margin-top: 50px;
+}
+
+/*terms of use*/
