@@ -42,13 +42,25 @@ p {
 }
 
 h1 {
-    font-size: 350%;
+    font-size: 400%;
     line-height: 150%;
+}
+
+h2 {
+    font-size: 200%;
+    line-height: 150%;
+    color: white;
 }
 
 h3 {
     color: #41464b;
     /*text-transform: uppercase;*/
+}
+
+h5 {
+    font-size: 120%;
+    color: white;
+    font-weight: bold !important;
 }
 
 
@@ -220,16 +232,6 @@ h3 {
 }
 
 
-/*parallax*/
-
-.bg-parallax {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
-
-
 /*buttons*/
 
 #home-btn li:first-child a {
@@ -347,7 +349,8 @@ btn,
 #prep-desc>p,
 #prep-desc {
     color: #fff !important;
-    font-weight: bold !important;
+    /* font-weight: bold !important;*/
+    
     margin-bottom: 50px;
 }
 #prep-btn {
@@ -397,6 +400,9 @@ btn,
     border: 2px solid white !important;
     height: 50px!important;
     outline: none!important;
+}
+#mc_embed_signup input.email {
+    margin-right: 45px !important;
 }
 
 /*services*/
@@ -448,11 +454,19 @@ btn,
     
     transition: transform .15s ease;
     border-radius: 12px;
-    height: 320px;
+    height: 215px;
 }
-.training-item:hover {
+
+/*.training-item:hover {
     background-color: white;
     box-shadow: 0 6px 12px rgba(32, 33, 39, .08);
+}*/
+.training-item-icon {
+    height: 75px;
+}
+.service-item-text {
+    height: 100%;
+    float: left;
 }
 .training-item-icon i {
     /*color: linear-gradient(to left top, #3CECB0, #009FC5);*/
