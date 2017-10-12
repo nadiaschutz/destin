@@ -346,12 +346,16 @@ btn,
 #prep {
     background: linear-gradient(to left top, #3CECB0, #009FC5);
 }
+#prep-content-box-inner .content-title>h3 {
+    color: #fff;
+}
 #prep-desc>p,
 #prep-desc {
     color: #fff !important;
     /* font-weight: bold !important;*/
     
     margin-bottom: 50px;
+    text-align: center;
 }
 #prep-btn {
     text-align: center;
@@ -512,22 +516,49 @@ btn,
 .adv-member-info {
     padding: 10px 0 30px 0;
 }
+#team-members a,
+#adv-members a,
+#partners-items a,
+#team-members a:hover,
+#partners-items a:hover,
+#adv-members a:hover,
+#team-members a:visited,
+#partners-items a:visited,
+#adv-members a:visited {
+    text-decoration: none;
+    color: #41464b;
+}
 h4.team-member-name,
+h4.team-member-name:hover,
+h4.team-member-name:visited,
 h4.adv-member-name,
-h4.partners-item-name {
+h4.adv-member-name:hover,
+h4.adv-member-name:visited,
+h4.partners-item-name,
+h4.partners-item-name:hover,
+h4.partners-item-name:visited,
+{
     font-size: 16px;
     font-weight: 700;
     letter-spacing: 1px;
     padding-top: 2px;
 }
 h4.team-member-designation,
+h4.team-member-designation:hover,
+h4.team-member-designation:visited,
 h4.adv-member-designation,
-h4.partners-item-designation {
+h4.adv-member-designation:hover,
+h4.adv-member-designation:visited,
+h4.partners-item-designation,
+h4.partners-item-designation:hover,
+h4.partners-item-designation:visited {
     font-size: 15px;
     font-weight: 100;
     font-style: italic;
     letter-spacing: 1px;
     margin-top: 5px;
+    text-decoration: none;
+    color: #41464b;
 }
 
 /*social*/
