@@ -108,9 +108,34 @@ h5 {
 }
 
 #home-cover {
-    background: linear-gradient(to left top, #3CECB0, #009FC5);
+    /*background: url("http://unsplash.it/1200x800") center center no-repeat;*/
+    background: url(../img/home-page.jpg);
     height: 100%;
     position: relative;
+    /*animation: myrule 7s infinite;*/
+    animation: myrule 30s linear infinite;
+}
+
+#home-cover:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /*background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 0, 0, 1)), to(rgba(0, 255, 0, .25)));*/
+    /* background-image: linear-gradient(to left top, #3CECB0, #009FC5);
+    opacity: 0.7;*/
+    background-image: linear-gradient(to left top, rgba(60, 236, 176, 0.1), rgba(0, 159, 197, 1)99%);
+}
+
+@keyframes myrule {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -400px 0;
+    }
 }
 
 #home-content-box {
@@ -126,6 +151,14 @@ h5 {
     text-align: left;
     width: 50%;
     padding-left: 100px;
+}
+
+.home-content-b-box {
+    /* background-color: rgba(255, 255, 255, 0.1);*/
+    /*background-color: rgb(22, 160, 133);*/
+    background-color: #32c2a1;
+    padding: 70px;
+    border-radius: 12px;
 }
 
 #home-heading h1 {
@@ -286,13 +319,23 @@ btn,
  0 10px 20px 0 rgba(0, 0, 0, 0.2);*/
 }
 
+.btn-blue {
+    /* background-image: linear-gradient(to left top, #3CECB0, #009FC5);
+    /*background: linear-gradient(to left top, #5134b2, #b175eb)!important;*/
+    background: #3CECB0!important;
+    color: #fff !important;
+    border: none !important;
+    padding: 5 30px !important;
+}
+
 .btn-white:hover,
 .btn-white:focus {
     color: white;
 }
 
 .btn-p {
-    background: linear-gradient(to left top, #5134b2, #b175eb)!important;
+    /*background: linear-gradient(to left top, #5134b2, #b175eb)!important;*/
+    background: #5134b2!important;
     color: #fff !important;
     border: none !important;
     padding: 5 30px !important;
