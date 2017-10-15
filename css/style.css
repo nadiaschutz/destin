@@ -139,7 +139,6 @@ h5 {
 }
 
 #home-content-box {
-    width: 50%;
     height: 100%;
     display: table;
     float: left;
@@ -156,7 +155,7 @@ h5 {
 .home-content-b-box {
     /* background-color: rgba(255, 255, 255, 0.1);*/
     /*background-color: rgb(22, 160, 133);*/
-    background-color: #32c2a1;
+    background-color: #3abdc2;
     padding: 70px;
     border-radius: 12px;
 }
@@ -657,11 +656,14 @@ h4.partners-item-designation:visited {
 #media-links {
     background: #fff;
 }
+.media-img img {
+    margin: auto;
+}
 #media-box:hover,
 .img.img-link:hover,
 media-box-desc:hover,
 p.link:hover {
-    color: #34c6d3;
+    color: #3abdc2;
 }
 
 /*contact*/
@@ -686,16 +688,17 @@ address p {
 .contact-email {
     position: relative;
     min-height: 1px;
-    float: left;
-    width: 50%;
+    /*float: left;
+width: 50%;*/
     margin-bottom: 15px;
 }
-.contact-name {
+/*.contact-name {
     padding: 0 7px 0 15px;
 }
+
 .contact-email {
     padding: 0 15px 0 7px;
-}
+}*/
 .message {
     height: 200px !important;
 }

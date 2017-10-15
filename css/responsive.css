@@ -35,6 +35,10 @@
     .vesco-nav-wrapper {
         padding: 0;
     }
+    /*home section*/
+    #home-content-box-inner {
+        padding-left: 0;
+    }
     /*about-remove diagonal border*/
     #about-bg-diagonal {
         border-left: 0;
@@ -75,59 +79,75 @@
     .navbar-nav {
         float: left;
     }
-    .vesco-nav-wrapper {
+    /*.vesco-nav-wrapper {
         padding: 0;
-    }
+    }*/
     #home-heading h3 {
         font-size: 24px;
+    }
+    /*home section*/
+    #home-content-box-inner {
+        padding-left: 0;
+    }
+    #home-heading h1 {
+        font-size: 300%;
+    }
+    #home-heading h2 {
+        font-size: 150%;
     }
     /*buttons*/
     .btn-general {
         padding: 6px 22px;
         font-size: 14px;
     }
-    /*about-remove diagonal border*/
-    #about-bg-diagonal {
-        border-left: 0;
-        border-right: 0;
-        width: 100%;
-        height: 350px;
+    #home-btn>ul {
+        display: block;
+    }
+    .home-btn-item {
+        padding-bottom: 20px;
+    }
+    .service-item {
+        height: auto;
+    }
+    .training-item {
+        padding: 0;
     }
     #about-content-box {
         width: 100%;
-        height: 350px;
         text-align: center;
     }
     #about .content-title h3 {
         text-align: center;
     }
-    #about .content-title-underline {
+    /*#about .content-title-underline {
         text-align: center;
         margin: 0 auto 30px auto;
-    }
-    /*work*/
-    .img-wrapper img {
-        min-width: 100%;
-    }
-    /*testimonials*/
-    .testimonial blockquote {
-        padding: 6px 50px;
-    }
-    .testimonial blockquote::before {
-        left: 10px;
-    }
-    .testimonial blockquote::after {
-        right: 10px;
-    }
-    .testimonial blockquote p {
-        font-size: 14px;
-    }
-    /*stats*/
-    .stats-item {
-        padding: 20px 0;
-    }
+    }*/
     #footer-copyrights {
         text-align: center;
+    }
+}
+
+@media(max-width:752px) {
+    .training-item-icon {
+        text-align: center;
+    }
+    .training-item-icon i {
+        margin: auto;
+        float: none;
+    }
+    .training-item-title,
+    .training-class-desc {
+        text-align: center;
+    }
+    .training-class-desc p {
+        margin-bottom: 50px;
+    }
+    #home-heading h1 {
+        font-size: 300%;
+    }
+    #home-heading h2 {
+        font-size: 150%;
     }
 }
 
@@ -146,35 +166,36 @@
     .vesco-nav-wrapper {
         padding: 0;
     }
+    #home-heading h1 {
+        font-size: 200%;
+    }
+    #home-heading h2 {
+        font-size: 120%;
+    }
+    .home-content-b-box {
+        padding: 25px;
+    }
+    .contact-name,
+    .contact-email {
+        position: relative;
+        min-height: 1px;
+        float: none;
+        width: 100%;
+        /*margin-bottom: 15px;*/
+    }
+    .container-contact {
+        padding: 50px 25px;
+    }
 }
 
 
 /*x-small devices*/
 
 @media(max-width:320px) {
-    /*.services*/
-    .service-item-icon i {
-        width: 58px;
-        height: 58px;
-        padding: 7px;
+    #home-heading h1 {
+        font-size: 150%;
     }
-    .service-item-title h3 {
-        font-size: 17px;
-    }
-    #about-content-box {
-        margin-top: 40px;
-    }
-    /*testimonials*/
-    .testimonial img {
-        max-width: 80px;
-    }
-    .testimonial blockquote {
-        padding: 6px 30px;
-    }
-    .testimonial blockquote::before {
-        left: 7px;
-    }
-    .testimonial blockquote::after {
-        right: 7px;
+    #home-heading h2 {
+        font-size: 100%;
     }
 }
