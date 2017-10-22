@@ -320,11 +320,11 @@ btn,
 
 .btn-blue {
     /* background-image: linear-gradient(to left top, #3CECB0, #009FC5);
-    /*background: linear-gradient(to left top, #5134b2, #b175eb)!important;*/
-    background: #3CECB0!important;
-    color: #fff !important;
-    border: none !important;
-    padding: 5 30px !important;
+    /*background: linear-gradient(to left top, #5134b2, #b175eb);*/
+    background: #3CECB0;
+    color: #fff;
+    border: none;
+    padding: 5 30px;
 }
 
 .btn-white:hover,
@@ -334,10 +334,10 @@ btn,
 
 .btn-p {
     /*background: linear-gradient(to left top, #5134b2, #b175eb)!important;*/
-    background: #5134b2!important;
-    color: #fff !important;
-    border: none !important;
-    padding: 5 30px !important;
+    background: #5134b2;
+    color: #fff;
+    border: none;
+    padding: 5 30px;
 }
 
 
@@ -393,8 +393,8 @@ btn,
 }
 #prep-desc>p,
 #prep-desc {
-    color: #fff !important;
-    /* font-weight: bold !important;*/
+    color: #fff;
+    /* font-weight: bold;*/
     
     margin-bottom: 50px;
     text-align: center;
@@ -405,14 +405,9 @@ btn,
 }
 
 /*sign up form*/
-#mc_embed_signup input.email {
-    /* font-family: "Open Sans","Helvetica Neue",Arial,Helvetica,Verdana,sans-serif; */
-    /*font-size: 15px;*/
-    /*border: 1px solid #ABB0B2;*/
-    
+
+/*#mc_embed_signup input.email {
     color: #555!important;
-    /*background-color: #fff;*/
-    
     font-family: 'Quicksand', sans-serif !important;
     height: 50px !important;
     padding: 6px 12px!important;
@@ -425,11 +420,12 @@ btn,
     font-size: 14px!important;
     line-height: 1.42857143;
     outline: none!important;
-}
-#mc_embed_signup .button {
+}*/
+
+/*#mc_embed_signup .button {
     white-space: nowrap!important;
     display: inline-block!important;
-    /* height: 40px; */
+     height: 40px; 
     
     line-height: 40px!important;
     padding: 3 30px!important;
@@ -446,9 +442,55 @@ btn,
     border: 2px solid white !important;
     height: 50px!important;
     outline: none!important;
-}
-#mc_embed_signup input.email {
+}*/
+
+/*#mc_embed_signup input.email {
     margin-right: 45px !important;
+}*/
+#prep #mc_embed_signup input.email {
+    /* font-family: "Open Sans","Helvetica Neue",Arial,Helvetica,Verdana,sans-serif; */
+    /*font-size: 15px;*/
+    /*border: 1px solid #ABB0B2;*/
+    
+    color: #555;
+    /*background-color: #fff;*/
+    
+    font-family: 'Quicksand', sans-serif;
+    height: 50px;
+    padding: 6px 12px;
+    display: inline-block;
+    margin: 0;
+    width: 350px;
+    background-color: #F8F9fa;
+    border: 1px solid #e7e8ea;
+    vertical-align: top;
+    font-size: 14px;
+    line-height: 1.42857143;
+    outline: none;
+}
+#prep #mc_embed_signup .button {
+    white-space: nowrap;
+    display: inline-block;
+    /* height: 40px; */
+    
+    line-height: 40px;
+    padding: 3 30px;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .025em;
+    text-decoration: none;
+    transition: all .15s ease;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    height: 50px;
+    outline: none;
+}
+#prep #mc_embed_signup input.email {
+    margin-right: 45px;
 }
 
 /*services*/

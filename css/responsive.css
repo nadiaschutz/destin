@@ -70,6 +70,16 @@
 
 /*x-small devices*/
 
+@media(max-width:768px) {
+    #prep #mc_embed_signup input.email {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    #prep #mc_embed_signup .button {
+        width: 175px;
+    }
+}
+
 @media(max-width:767px) {
     /* Mobile menu */
     .navbar {
@@ -149,6 +159,9 @@
     #home-heading h2 {
         font-size: 150%;
     }
+    #home-cover {
+        animation: none;
+    }
 }
 
 
@@ -185,6 +198,10 @@
     }
     .container-contact {
         padding: 50px 25px;
+    }
+    #prep #mc_embed_signup input.email {
+        margin-right: 0;
+        width: 100%;
     }
 }
 
